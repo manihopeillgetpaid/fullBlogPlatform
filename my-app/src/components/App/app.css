@@ -1,0 +1,12 @@
+@font-face {
+  font-family: inter;
+  src: url('../assets/font/Inter_18pt-Regular.ttf');
+}
+body, a, div, button,p{
+font-family: inter;
+}
+body{
+  background-color: #EBEEF3;
+  padding: 0;
+  margin: 0;
+}
