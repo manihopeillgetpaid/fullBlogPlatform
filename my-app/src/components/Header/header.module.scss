@@ -1,4 +1,4 @@
-.container{
+.containerNo{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,12 +6,21 @@
     background-color: white;
     margin: 0;
     padding: 0 20px;
+    padding: 1rem;
 }
-.main-header{
-    height: 80px;
-}
+
  .link{
     border: 0;
+    background-color: white;
+    padding:10px 20px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+ .link{
+    border: 1px solid transparent;
     background-color: white;
     padding:10px 20px;
     font-size: 18px;
@@ -24,31 +33,4 @@
     color:#52C41A;
     border: 1px solid #52C41A;
     border-radius: 5px;
-}
-.button-container{
-    display: flex;
-   align-items: center;
-}
-.link-sm{
-    font-size: 14px;
-}
-.logout{
-    border: 1px solid black;
-    border-radius:5px ;
-    color: black;
-    margin-bottom: 10px;
-}
-.author-cont{
-    display: flex;
-    align-items: center;
-
-}
-.name{
-    margin-right: 10px;
-}
-.link-auth{
-    padding: 5px 10px;
-}
-.avatar{
-    border-radius: 100%;
 }

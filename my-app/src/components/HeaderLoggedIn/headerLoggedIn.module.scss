@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    background-color: white;
+    margin: 0;
+    padding: 0 20px;
+    padding: 1rem;
+}
+
+ .link{
+    border: 1px solid transparent;
+    background-color: white;
+    padding:10px 20px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.active, .link:hover{
+    color:#52C41A;
+    border: 1px solid #52C41A;
+    border-radius: 5px;
+}
+.buttonContainer{
+    display: flex;
+   align-items: center;
+}
+.linkSm{
+    font-size: 14px;
+}
+.logout{
+    border: 1px solid black;
+    border-radius:5px ;
+    color: black;
+    
+    
+}
+.authorCont{
+    display: flex;
+    align-items: center;
+
+}
+.name{
+    margin-right: 10px;
+}
+.linkAuth{
+    padding: 5px 10px;
+}
+.avatar{
+    border-radius: 100%;
+}
